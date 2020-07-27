@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+  padding: 0;
+  align-items: center;
+  
+	
+}
+
+.results .result {
+  width: 33.33%;
+	min-width: 250px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+  cursor: pointer;
+  postion:none;
+}
+.md-cancel{
+text-align:center;
+  background:black;
+  color:white;
+  padding: 20px 20px 20px 20px blue;
+  position: absolute;
+  right:0px;
+  top:0px;
+  margin-left: 20px;
+  border-bottom-left-radius: 65%;
+}
+.md-cancel:hover{
+  background:#fff;
+  color:#000;
+  opacity: 75%;
+}
+
+  
+  
+  .results .result:hover H3 {
+    background: #FFF;
+    color: #223343;
+    box-shadow:0 0 25px black;
+  }
+  .results .result:hover Image2 {
+    
+    box-shadow:0 0 25px black;
+  }
+  .res{
+    position:absolute;
+    top:110px;
+    left:490px;
+    right:0px;
+    background:black;
+    text-align:left;
+    width:50vh;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;   
+}
+ul ol{
+    padding-bottom:0px;
+    border:1px solid #223343;
+    border-bottom:0px;
+    border-radius:10px;
+}
+ol{
+    width:auto;
+    height:auto;
+}
+ol:hover{
+    background:white;
+    color:black;
+    outline:none;
+}
+ul ol h3{
+    position:absolute;
+    text-align:center;
+    margin-left:120px;  
+}
+
+.Play{
+  position: absolute;
+  left:40%;
+  top:20%;
+  color:#000009;
+  opacity: 65%;
+  cursor: pointer;
+}
+.Play:hover{
+  color:white;
+  opacity: 100%;
+  
+}
